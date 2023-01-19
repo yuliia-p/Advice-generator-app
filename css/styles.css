@@ -8,23 +8,64 @@ body {
 }
 
 .content-box {
-  padding: 3rem;
+  padding: 2rem;
   background-color: hsl(217deg, 19%, 24%);
   border-radius: 10px;
   position: relative;
 }
 
-.icon-dice {
-  padding: 1rem;
+.advice {
+  color: hsl(150deg, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.circle-dice {
+  padding: 2rem;
   border-radius: 50%;
   background-color: hsl(150deg, 100%, 66%);
+  background-image: url("../images/icon-dice.svg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: -2rem;
-  left: 45%;
+  left: 41%;
+}
+
+.line-pattern-div {
+  margin: 1rem 0;
+}
+
+img.line-pattern {
+  width: 100%;
+}
+
+.desktop {
+  display: none;
 }
 
 @media screen and (min-width: 756px) {
   /* .container {
 
   } */
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .line-pattern-div {
+    margin: 2rem 0;
+  }
+
+  .icon-dice {
+    width: 10%;
+  }
+
+  .circle-dice {
+    left: 45%;
+  }
 }
