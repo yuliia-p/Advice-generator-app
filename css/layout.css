@@ -13,4 +13,9 @@
     display: grid;
     place-items: center;
   }
+
+  .content-box {
+    width: 600px;
+    height: 400px;
+  }
 }

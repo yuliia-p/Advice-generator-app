@@ -18,6 +18,7 @@ body {
   color: hsl(150deg, 100%, 66%);
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
 }
 
 .circle-dice {
@@ -31,6 +32,7 @@ body {
   position: absolute;
   bottom: -2rem;
   left: 41%;
+  cursor: pointer;
 }
 
 .line-pattern-div {
@@ -46,9 +48,6 @@ img.line-pattern {
 }
 
 @media screen and (min-width: 756px) {
-  /* .container {
-
-  } */
   .mobile {
     display: none;
   }
@@ -59,6 +58,7 @@ img.line-pattern {
 
   .line-pattern-div {
     margin: 2rem 0;
+    padding: 0 1rem;
   }
 
   .icon-dice {
@@ -67,5 +67,12 @@ img.line-pattern {
 
   .circle-dice {
     left: 45%;
+  }
+
+  img.line-pattern {
+    width: 95%;
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
   }
 }
