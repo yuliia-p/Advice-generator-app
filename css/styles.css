@@ -4,11 +4,12 @@ body {
   font-family: Manrope, sans-serif;
   background-color: hsl(218deg, 23%, 16%);
   color: white;
+  text-align: center;
 }
 
-.container {
+.content-box {
+  padding: 3rem;
   background-color: hsl(217deg, 19%, 24%);
-  text-align: center;
   border-radius: 10px;
   position: relative;
 }
@@ -19,7 +20,7 @@ body {
   background-color: hsl(150deg, 100%, 66%);
   position: absolute;
   bottom: -2rem;
-  left: 50%;
+  left: 45%;
 }
 
 @media screen and (min-width: 756px) {
