@@ -1,0 +1,29 @@
+@import "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Manrope:wght@700;800";
+
+body {
+  font-family: Manrope, sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+  color: white;
+}
+
+.container {
+  background-color: hsl(217deg, 19%, 24%);
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.icon-dice {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: hsl(150deg, 100%, 66%);
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+}
+
+@media screen and (min-width: 756px) {
+  /* .container {
+
+  } */
+}
