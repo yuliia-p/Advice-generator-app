@@ -24,6 +24,7 @@ body {
 .circle-dice {
   padding: 2rem;
   border-radius: 50%;
+  border: none;
   background-color: hsl(150deg, 100%, 66%);
   background-image: url("../images/icon-dice.svg");
   background-position-x: center;
@@ -33,6 +34,10 @@ body {
   bottom: -2rem;
   left: 41%;
   cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 -2px 26px 2px rgb(60, 205, 113);
 }
 
 .line-pattern-div {
