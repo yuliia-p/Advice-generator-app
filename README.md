@@ -15,12 +15,11 @@ Users should be able to:
 ### Screenshot
 
 <p align="middle">
-<img src="../images/Advice generator app.gif" width="1000">
+<img src="./images/advice-generator-app.gif" width="1000">
 </p>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -33,3 +32,8 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Advice Slip API](https://api.adviceslip.com/#object-slip)
+
+## Author
+
+- LinkedIn - [Yuliia Pchelintseva](https://https://www.linkedin.com/in/yuliia-pch/)
+
